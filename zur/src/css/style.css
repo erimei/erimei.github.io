@@ -1,0 +1,66 @@
+@font-face {
+  font-family: 'Lobster';
+  src: url('../fonts/Lobster-Regular.eot');
+  src: url('../fonts/Lobster-Regular.eot?#iefix') format('embedded-opentype'), url('../fonts/Lobster-Regular.woff2') format('woff2'), url('../fonts/Lobster-Regular.woff') format('woff'), url('../fonts/Lobster-Regular.ttf') format('truetype'), url('../fonts/Lobster-Regular.svg#Lobster-Regular') format('svg');
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+/*Colors*/
+html {
+  font-size: 10px;
+}
+.main {
+  background: #ffffff url(../img/main-bg.jpg) center center no-repeat;
+}
+/* Заголовок*/
+.header {
+  margin-top: 10px;
+  background-color: #faeedd;
+  height: 3rem;
+  border: 1px solid #1fcecb;
+  border-radius: 1rem;
+}
+.logo {
+  font-size: 2rem;
+  font-family: 'Lobster', sans-serif;
+}
+/*Форма ввода*/
+.form {
+  margin-top: 10rem;
+  text-align: center;
+}
+.form span {
+  display: block;
+  padding: 1rem;
+}
+.form-input {
+  border: 1px solid #1fcecb;
+  padding: 1rem;
+  border-radius: 1rem;
+}
+.form .logo1 {
+  font-size: 3rem;
+  font-family: 'Lobster', sans-serif;
+}
+.form .logo2 {
+  font-size: 1rem;
+  font-family: 'Lobster', sans-serif;
+  margin-top: 1.8rem;
+}
+.form .btn {
+  margin-top: 3rem;
+  font-family: 'Lobster', sans-serif;
+  font-size: 2rem;
+  border-radius: 1rem;
+  border: 1px solid #1fcecb;
+  background-color: #faeedd;
+}
+.form .form-text {
+  border: 1px solid #1fcecb;
+  border-radius: 1rem;
+}
+.footer {
+  margin-top: 17rem;
+  text-align: center;
+}
